@@ -5,9 +5,6 @@ import com.sun.org.apache.xpath.internal.functions.FuncFalse;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by khuang on 9/13/15.
- */
 class TrieNode {
     char c;
     HashMap<Character, TrieNode> children = new HashMap<Character, TrieNode>();
@@ -76,11 +73,12 @@ public class Trie {
     }
 
     // return if the trie has the given prefix
-    public boolean searchPrefix(String) {
-        TrieNode t = searchNode(String);
+    public boolean searchPrefix(String s) {
+        TrieNode t = searchNode(s);
         if (t == null)
             return false;
         else
             return true;
     }
 }
+
