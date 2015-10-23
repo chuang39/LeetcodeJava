@@ -7,7 +7,7 @@ public class ExpressionAddOperators {
     public List<String> addOperators(String num, int target) {
         List<String> res = new ArrayList<String>();
 
-        dfs(num, 0, target, new StringBuilder(), 0, res);
+        //dfs(num, 0, target, new StringBuilder(), 0, res);
         return res;
     }
 
@@ -36,7 +36,7 @@ public class ExpressionAddOperators {
     }
     public  static void main(String[] args) {
         ExpressionAddOperators s = new ExpressionAddOperators();
-        String num = "123";
-        List<String> res = s.addOperators(num, 6);
+        //String num = "123";
+        //List<String> res = s.addOperators(num, 6);
     }
 }

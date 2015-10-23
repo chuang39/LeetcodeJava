@@ -1,10 +1,11 @@
+/*
+* Leetcode: https://leetcode.com/problems/maximum-subarray/
+* */
+
 package dp.java.leetcode;
 
 import java.util.ArrayList;
 
-/**
- * Created by khuang on 9/7/15.
- */
 public class MaximumSubarray {
     /**
      * @param nums: A list of integers

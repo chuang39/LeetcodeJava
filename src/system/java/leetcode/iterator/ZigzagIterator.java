@@ -33,6 +33,7 @@ class ZigzagIterator1 {
     }
 }
 
+// Use two stacks to implements it (IMO, it is the correct way)
 class ZigzagIterator2 {
     List<Iterator<Integer>> its = new ArrayList<Iterator<Integer>>();
     List<Stack<Iterator<Integer>>> stacks;

@@ -1,8 +1,5 @@
 package dp.java.leetcode;
 
-/**
- * Created by khuang on 9/12/15.
- */
 public class EditDistance {
     public int minDistance(String word1, String word2) {
         String minWord = word1.length() <= word2.length() ? word1 : word2;

@@ -6,13 +6,22 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/*
+
+
+
+    Tips:
+    1. for finding median, node of heap contains id and number of appearances.
+ */
+
+
 
 class Node {
     Integer id;
     Integer num;
 
     Node(Node now) {
-        id = now.id;
+        id = now.id;    // id is the position/index in the heap/array
         num = now.num;  // numbers of elements with the same value
     }
 
